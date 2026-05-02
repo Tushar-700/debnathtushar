@@ -227,3 +227,6 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+function loadGoogleTranslate() {
+              new google.translate.TranslateElement("google_element");
+            }
